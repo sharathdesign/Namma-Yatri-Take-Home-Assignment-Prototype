@@ -1,0 +1,74 @@
+const imgCheck = "https://www.figma.com/api/mcp/asset/ec42a900-4c66-4eee-8185-e28bf4900d62.svg";
+const imgClockWaiting = "https://www.figma.com/api/mcp/asset/927bebc0-1f7c-49e4-a344-e319b53d371f.svg";
+
+type TripStatusIndicatorAndMessageProps = {
+  className?: string;
+  status?: "Confirmed" | "Waiting";
+};
+
+export default function TripStatusIndicatorAndMessage({ className, status = "Confirmed" }: TripStatusIndicatorAndMessageProps) {
+  const isWaiting = status === "Waiting";
+  return (
+    <div className={className || "content-stretch flex flex-col gap-[var(--route-space-12,12px)] items-start relative w-[350px]"} id={isWaiting ? "node-58094_1787" : "node-58094_1780"}>
+      <div className={`content-stretch flex flex-col items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[48px] ${isWaiting ? "bg-[#cd8419]" : "bg-[var(--status-confirmed,#388e3c)]"}`} id={isWaiting ? "node-58094_1788" : "node-58094_1781"} data-name="Status indicator / 56 px">
+        <div className="content-stretch flex h-[56px] items-center justify-center relative shrink-0 w-full" id={isWaiting ? "node-58094_1789" : "node-58094_1782"} data-name="State-layer">
+          {status === "Confirmed" && (
+            <div className="relative shrink-0 size-[24px]" data-node-id="58094:1783" data-name="Check">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheck} />
+            </div>
+          )}
+          {isWaiting && (
+            <div className="relative shrink-0 size-[24px]" data-node-id="58094:1796" data-name="Clock / Waiting">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClockWaiting} />
+            </div>
+          )}
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--route-space-8,8px)] items-start overflow-clip relative shrink-0 w-[350px]" id={isWaiting ? "node-58094_1791" : "node-58094_1784"} data-name="Status message">
+        <p className={`font-["Geist:SemiBold"] font-semibold leading-[28px] relative shrink-0 text-[20px] w-[350px] ${isWaiting ? "text-[#1b1d23]" : "text-[color:var(--ink,#202024)]"}`} id={isWaiting ? "node-58094_1792" : "node-58094_1785"}>
+          {isWaiting ? "Request sent to Ananya" : "Your seat is confirmed"}
+        </p>
+        <div className={`font-["Geist:Regular"] font-normal leading-[0] relative shrink-0 text-[14px] w-[350px] ${isWaiting ? "text-[#9da4ae]" : "text-[color:var(--secondary,#68686f)]"}`} id={isWaiting ? "node-58094_1793" : "node-58094_1786"}>
+          <p className="leading-[19.6px] mb-0">{isWaiting ? "Waiting for her to confirm your seat." : "Ananya approved your request."}</p>
+          <p className="leading-[19.6px]">{isWaiting ? "We’ll notify you when she responds." : "You’re joining the group at Mysuru."}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: White: #FFFFFF, H1: Font(family: "Geist", style: SemiBold, size: 20, weight: 600, lineHeight: 28, letterSpacing: 0), Body sm: Font(family: "Geist", style: Regular, size: 14, weight: 400, lineHeight: 19.600000381469727, letterSpacing: 0), Black: #1B1D23, Grey 1: #9DA4AE.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Trip status / Indicator and message
+**Node ID:** 58095:1784
+
+Waiting uses an amber clock. Confirmed uses the exact green-circle and white-check style from 196:4912. Confirmation requires an organizer event; there is no automatic transition.
+
+## Status=Confirmed
+**Node ID:** 58094:1780
+
+Riya’s confirmed state, shown only after the organizer approves. Reference 196:4912 supplies the 56 px circular indicator and 24 px white check.
+
+## Check
+**Node ID:** 186:2825
+
+todo, to-do, task, list, checkbox, ok, done, system & devices
+
+## Status=Waiting
+**Node ID:** 58094:1787
+
+Request has been sent; seat is not confirmed. Organizer approval, not a user action or timer, changes the status.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

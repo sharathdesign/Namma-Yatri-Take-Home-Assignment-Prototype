@@ -1,0 +1,171 @@
+const imgTimelineMarkerAndConnector = "https://www.figma.com/api/mcp/asset/945688dc-1a79-4fa7-8d2f-71a8db35209b.svg";
+const imgTimelineMarkerAndConnector1 = "https://www.figma.com/api/mcp/asset/2df37d3c-42a8-47c7-a841-5c2781417d42.svg";
+const imgExternalLink = "https://www.figma.com/api/mcp/asset/d6f25541-9439-465a-a113-f7f198aea404.svg";
+const imgTimelineMarkerAndConnector2 = "https://www.figma.com/api/mcp/asset/0d96e504-21c3-4b51-80ed-adebbee7b983.svg";
+const imgX = "https://www.figma.com/api/mcp/asset/9ee51ac4-f051-4516-820c-ad61884e797c.svg";
+const imgInfo = "https://www.figma.com/api/mcp/asset/67a24539-4f38-4876-9c81-65b497461832.svg";
+
+function RouteOverviewPickupItinerary({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col gap-[var(--route-space-24,24px)] items-start relative w-[350px]"} data-node-id="58066:1635" data-name="Route overview / Pickup itinerary">
+      <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[#1b1d23] text-[16px] whitespace-nowrap" data-node-id="58066:1636">
+        One route. Join where it works.
+      </p>
+      <div className="content-stretch flex flex-col gap-[var(--route-space-0,0px)] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="58066:1637" data-name="Route / Four stops">
+        <div className="content-stretch flex gap-[var(--route-space-12,12px)] h-[60px] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="58066:1642" data-name="Stop / Bengaluru">
+          <div className="h-[60px] relative shrink-0 w-[18px]" data-node-id="58066:1643" data-name="Timeline / marker and connector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTimelineMarkerAndConnector} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--route-space-2,2px)] items-start overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1647" data-name="Stop content">
+            <div className="content-stretch flex gap-[var(--route-space-8,8px)] items-center overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1648" data-name="Stop title">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[19.6px] min-w-px relative text-[#1b1d23] text-[14px]" data-node-id="58066:1649">
+                Bengaluru
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] whitespace-nowrap" data-node-id="58066:1650">
+              Departure · 7:00 AM
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[var(--route-space-12,12px)] h-[88px] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="58066:1651" data-name="Stop / Mysuru">
+          <div className="h-[88px] relative shrink-0 w-[18px]" data-node-id="58066:1652" data-name="Timeline / marker and connector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTimelineMarkerAndConnector1} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--route-space-2,2px)] items-start overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1656" data-name="Stop content">
+            <div className="content-stretch flex gap-[var(--route-space-8,8px)] items-center overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1657" data-name="Stop title">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[19.6px] min-w-px relative text-[#1b1d23] text-[14px]" data-node-id="58066:1658">
+                Mysuru
+              </p>
+              <div className="bg-[#f5f5f7] content-stretch flex gap-[var(--route-space-0,0px)] items-start overflow-clip px-[var(--route-space-8,8px)] py-[var(--route-space-4,4px)] relative rounded-[var(--route-radius-6,6px)] shrink-0" data-node-id="58066:1659" data-name="Pickup stop badge">
+                <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[16px] relative shrink-0 text-[#1b1d23] text-[12px] whitespace-nowrap" data-node-id="58066:1660">
+                  Pickup stop
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] whitespace-nowrap" data-node-id="58066:1661">
+              10:30 AM · Mysuru Junction
+            </p>
+            <a className="content-stretch cursor-pointer flex gap-[var(--route-space-4,4px)] h-[32px] items-center relative shrink-0" href="https://www.google.com/maps/dir/?api=1&destination=Mysuru%20Junction%20Railway%20Station%2C%20Mysuru%2C%20Karnataka" data-node-id="58066:1662" target="_blank" data-name="View map / Mysuru">
+              <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[16px] relative shrink-0 text-[#7943ee] text-[12px] text-left whitespace-nowrap" data-node-id="I58066:1662;58066:1639" role="link" tabIndex="0">
+                View map
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I58066:1662;58066:1640" data-name="External link">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink} />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[var(--route-space-12,12px)] h-[88px] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="58066:1667" data-name="Stop / Kushalnagar">
+          <div className="h-[88px] relative shrink-0 w-[18px]" data-node-id="58066:1668" data-name="Timeline / marker and connector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTimelineMarkerAndConnector1} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--route-space-2,2px)] items-start overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1672" data-name="Stop content">
+            <div className="content-stretch flex gap-[var(--route-space-8,8px)] items-center overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1673" data-name="Stop title">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[19.6px] min-w-px relative text-[#1b1d23] text-[14px]" data-node-id="58066:1674">
+                Kushalnagar
+              </p>
+              <div className="bg-[#f5f5f7] content-stretch flex gap-[var(--route-space-0,0px)] items-start overflow-clip px-[var(--route-space-8,8px)] py-[var(--route-space-4,4px)] relative rounded-[var(--route-radius-6,6px)] shrink-0" data-node-id="58066:1675" data-name="Pickup stop badge">
+                <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[16px] relative shrink-0 text-[#1b1d23] text-[12px] whitespace-nowrap" data-node-id="58066:1676">
+                  Pickup stop
+                </p>
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] whitespace-nowrap" data-node-id="58066:1677">
+              12:30 PM · KSRTC bus stand
+            </p>
+            <a className="content-stretch cursor-pointer flex gap-[var(--route-space-4,4px)] h-[32px] items-center relative shrink-0" href="https://www.google.com/maps/dir/?api=1&destination=KSRTC%20Bus%20Stand%2C%20Kushalnagar%2C%20Karnataka" data-node-id="58066:1678" target="_blank" data-name="View map / Kushalnagar">
+              <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[16px] relative shrink-0 text-[#7943ee] text-[12px] text-left whitespace-nowrap" data-node-id="I58066:1678;58066:1639" role="link" tabIndex="0">
+                View map
+              </p>
+              <div className="relative shrink-0 size-[14px]" data-node-id="I58066:1678;58066:1640" data-name="External link">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgExternalLink} />
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="content-stretch flex gap-[var(--route-space-12,12px)] h-[40px] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="58066:1683" data-name="Stop / Madikeri, Coorg">
+          <div className="h-[40px] relative shrink-0 w-[18px]" data-node-id="58066:1684" data-name="Timeline / marker and connector">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTimelineMarkerAndConnector2} />
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--route-space-2,2px)] items-start overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1687" data-name="Stop content">
+            <div className="content-stretch flex gap-[var(--route-space-8,8px)] items-center overflow-clip relative shrink-0 w-[320px]" data-node-id="58066:1688" data-name="Stop title">
+              <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[19.6px] min-w-px relative text-[#1b1d23] text-[14px]" data-node-id="58066:1689">
+                Madikeri, Coorg
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] whitespace-nowrap" data-node-id="58066:1690">
+              Arrival · 1:30 PM
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function PickupRouteBottomSheet() {
+  return (
+    <div className="content-stretch flex flex-col items-start relative size-full" data-node-id="58062:3561" data-name="Pickup route / Bottom Sheet">
+      <div className="bg-white content-stretch flex flex-col gap-[var(--route-space-20,20px)] items-start pb-[var(--route-space-24,24px)] pt-[var(--route-space-12,12px)] px-[var(--route-space-20,20px)] relative rounded-tl-[var(--route-radius-24,24px)] rounded-tr-[var(--route-radius-24,24px)] shrink-0 w-[390px]" data-node-id="58062:3562" data-name="Route sheet / Pickup details">
+        <div className="content-stretch flex gap-[var(--route-space-0,0px)] items-start justify-center overflow-clip relative shrink-0 w-[350px]" data-node-id="58062:3563" data-name="Drag handle">
+          <div className="bg-[#d2d6db] h-[4px] relative rounded-[2px] shrink-0 w-[36px]" data-node-id="58062:3564" data-name="Handle" />
+        </div>
+        <div className="content-stretch flex gap-[var(--route-space-12,12px)] items-center overflow-clip relative shrink-0 w-[350px]" data-node-id="58062:3565" data-name="Sheet header">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[28px] min-w-px relative text-[#1b1d23] text-[20px]" data-node-id="58062:3566">
+            Trip route
+          </p>
+          <div className="content-stretch drop-shadow-[0px_1px_1px_rgba(16,24,40,0.05)] flex items-center justify-center px-[10px] py-[8px] relative rounded-[999px] shrink-0 w-[36px]" data-node-id="58062:3567" data-name="CTA">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I58062:3567;58000:2349" data-name="Bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgX} />
+            </div>
+          </div>
+        </div>
+        <RouteOverviewPickupItinerary className="content-stretch flex flex-col gap-[var(--route-space-24,24px)] items-start relative shrink-0 w-[350px]" />
+        <div className="content-stretch flex gap-[8px] items-start relative rounded-[100px] shrink-0 w-full" data-node-id="58062:3569" data-name="Date wrapper">
+          <div className="relative shrink-0 size-[16px]" data-node-id="58062:3570" data-name="Info">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfo} />
+          </div>
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[16px] min-w-px relative text-[#9da4ae] text-[12px]" data-node-id="58062:3571">
+            View map opens Google Maps directions from your current location to that pickup stop.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Grey 2: #D2D6DB, Black: #1B1D23, H1: Font(family: "Geist", style: SemiBold, size: 20, weight: 600, lineHeight: 28, letterSpacing: 0), stone: #343330, Light sd: Effect(type: DROP_SHADOW, color: #1018280D, offset: (0, 1), radius: 2, spread: 0), H2: Font(family: "Geist", style: SemiBold, size: 16, weight: 600, lineHeight: 20, letterSpacing: 0), White: #FFFFFF, H3: Font(family: "Geist", style: SemiBold, size: 14, weight: 600, lineHeight: 19.600000381469727, letterSpacing: 0), Grey 1: #9DA4AE, Body ex.sm: Font(family: "Geist", style: Regular, size: 12, weight: 400, lineHeight: 16, letterSpacing: 0), Primary color: #7943EE, H4: Font(family: "Geist", style: SemiBold, size: 12, weight: 600, lineHeight: 16, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## X
+**Node ID:** 58062:3422
+
+×, closed, cancelled, dismissed, times, multiply, mulitplication, product, mathematics, arithmetic, calculator, math & finance
+
+## Route overview / Pickup itinerary
+**Node ID:** 58066:1635
+
+Shared route itinerary for inline trip details and the route bottom sheet. Purple stops accept pickups. Each View map link opens Google Maps directions to that stop using the device location when available.
+
+## View map / External directions
+**Node ID:** 58066:1638
+
+Directions link to a pickup stop. URL omits origin so Google Maps uses current location when available.
+
+## Info
+**Node ID:** 58055:2489
+
+information, help, support, security & warnings
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

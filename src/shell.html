@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f3f1f6">
+  <meta name="description" content="Moving tech — an interactive, offline trip-sharing prototype.">
+  <title>Moving tech · Coorg with the gang</title>
+  <style>__CSS__</style>
+</head>
+<body>
+  <main class="presentation">
+    <div class="preview-chrome" id="preview-chrome">
+      <div class="preview-heading"><button id="reset" class="reset-button" data-action="reset" aria-label="Reset prototype"><span aria-hidden="true">↻</span> Reset prototype</button></div>
+      <div class="handoff" id="handoff" aria-live="polite"></div>
+    </div>
+    <div class="device-space" id="device-space">
+      <div class="device" id="device">
+        <span class="side-button mute" aria-hidden="true"></span><span class="side-button volume-up" aria-hidden="true"></span><span class="side-button volume-down" aria-hidden="true"></span><span class="side-button power" aria-hidden="true"></span>
+        <section class="phone" id="phone" aria-label="Moving tech mobile prototype">
+          <div class="statusbar" id="statusbar"></div>
+          <header id="app-header"></header>
+          <div id="app" class="app-scroll" tabindex="-1"></div>
+          <footer id="app-footer"></footer>
+          <div id="modal-root"></div>
+          <div id="toast" role="status" aria-live="polite"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <div class="sr-only" id="live" aria-live="polite"></div>
+  <script>__JS__</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Car">
+<g id="Vector">
+</g>
+<path id="Vector_2" d="M1 7H15" stroke="#1B1D23" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M14 11V12.5C14 12.6326 13.9473 12.7598 13.8536 12.8536C13.7598 12.9473 13.6326 13 13.5 13H12C11.8674 13 11.7402 12.9473 11.6464 12.8536C11.5527 12.7598 11.5 12.6326 11.5 12.5V11" stroke="#1B1D23" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M4.5 11V12.5C4.5 12.6326 4.44732 12.7598 4.35355 12.8536C4.25979 12.9473 4.13261 13 4 13H2.5C2.36739 13 2.24021 12.9473 2.14645 12.8536C2.05268 12.7598 2 12.6326 2 12.5V11" stroke="#1B1D23" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M4 9H5" stroke="#1B1D23" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M11 9H12" stroke="#343330" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M14 7L12.1319 2.79688C12.0926 2.70851 12.0285 2.63343 11.9474 2.58074C11.8663 2.52805 11.7717 2.5 11.675 2.5H4.325C4.22829 2.5 4.13366 2.52805 4.05257 2.58074C3.97148 2.63343 3.90741 2.70851 3.86812 2.79688L2 7V11H14V7Z" stroke="#343330" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

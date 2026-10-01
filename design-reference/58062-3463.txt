@@ -1,0 +1,265 @@
+const imgEllipse = "https://www.figma.com/api/mcp/asset/91bec61f-dea8-4b91-b475-647528e4c9e1.svg";
+const imgEllipse1 = "https://www.figma.com/api/mcp/asset/644e7080-cde1-4d39-98d9-d5839e4870e2.svg";
+const imgFrame43 = "https://www.figma.com/api/mcp/asset/c7c6e2c2-e21c-420a-99a4-de57ff747fca.png";
+const imgEllipse2 = "https://www.figma.com/api/mcp/asset/f3c8d8f8-40fc-4948-bed5-e8691b69ceba.png";
+const imgEllipse4 = "https://www.figma.com/api/mcp/asset/02475969-efa4-4148-87cf-cf14b90689e3.png";
+const imgEllipse3 = "https://www.figma.com/api/mcp/asset/6d277fa4-f7c2-4ad1-a916-45a0c69f17fc.png";
+const imgEllipse5 = "https://www.figma.com/api/mcp/asset/8e04cd81-cf60-4c92-8124-b3d991157f9d.png";
+const imgBaseSystemStatusIcons = "https://www.figma.com/api/mcp/asset/5832bfd2-b29f-4074-9fee-d25299d7cc64.svg";
+const imgCaretLeft = "https://www.figma.com/api/mcp/asset/d12c6b42-0f6c-41c9-a51c-5ae2d418b3ea.svg";
+const imgDotsThree = "https://www.figma.com/api/mcp/asset/c07c16c3-5891-41d9-a31c-5ba857f51adf.svg";
+const imgCaretRight = "https://www.figma.com/api/mcp/asset/774a3971-9d30-4e2e-82c4-a31edd4344a9.svg";
+const imgCaretRight1 = "https://www.figma.com/api/mcp/asset/676b087a-5efa-4697-9f4a-43099443a140.svg";
+const imgInfo = "https://www.figma.com/api/mcp/asset/6eba4b53-da58-49cc-a454-c6ab03a0806a.svg";
+
+type LocationSplitProps = {
+  className?: string;
+  state?: "Selected" | "default";
+};
+
+function LocationSplit({ className, state = "default" }: LocationSplitProps) {
+  const isSelected = state === "Selected";
+  return (
+    <div className={className || `bg-white border-solid content-stretch flex items-start justify-between p-[12px] relative rounded-[6px] w-[350px] ${isSelected ? "border-[#7943ee] border-[1.5px] h-[68px]" : "border border-[#d2d6db] drop-shadow-[0px_1px_1px_rgba(16,24,40,0.05)]"}`} id={isSelected ? "node-58040_2732" : "node-58040_2730"}>
+      <div className="content-stretch flex gap-[12px] items-start relative shrink-0" id={isSelected ? "node-58040_2798" : "node-58040_2792"}>
+        <div className="relative shrink-0 size-[18px]" id={isSelected ? "node-58040_2744" : "node-58040_2723"} data-name="Ellipse">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={isSelected ? imgEllipse1 : imgEllipse} />
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[2px] items-start overflow-clip relative shrink-0 w-[198px] whitespace-nowrap" id={isSelected ? "node-58040_2734" : "node-58040_2724"} data-name="Pickup details">
+          <p className="font-['Geist:SemiBold'] font-semibold leading-[19.6px] relative shrink-0 text-[#1b1d23] text-[14px]" id={isSelected ? "node-58040_2735" : "node-58040_2725"}>
+            Mysuru · 10:30 AM
+          </p>
+          <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px]" id={isSelected ? "node-58040_2736" : "node-58040_2726"}>
+            Mysuru Junction
+          </p>
+        </div>
+      </div>
+      <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-end min-w-px overflow-clip relative whitespace-nowrap" id={isSelected ? "node-58040_2737" : "node-58040_2727"} data-name="Estimated share">
+        <p className="font-['Geist:SemiBold'] font-semibold leading-[19.6px] relative shrink-0 text-[#1b1d23] text-[14px]" id={isSelected ? "node-58040_2738" : "node-58040_2728"}>
+          ₹2,140
+        </p>
+        <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px]" id={isSelected ? "node-58040_2739" : "node-58040_2729"}>
+          est. total
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default function TripInvitation() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="58062:3463" data-name="Trip invitation">
+      <div className="absolute h-[44px] left-0 overflow-clip top-0 w-[390px]" data-node-id="58062:3464" data-name="Android UI/Status Bar">
+        <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] left-[20px] not-italic text-[#1b1d23] text-[15px] top-1/2 tracking-[-0.5px] whitespace-nowrap" data-node-id="58062:3465">
+          <p className="leading-[20px]">12:30</p>
+        </div>
+        <div className="-translate-y-1/2 absolute h-[24px] right-[20px] top-1/2 w-[50.667px]" data-node-id="58062:3466" data-name=".Base / System / Status Icons">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBaseSystemStatusIcons} />
+        </div>
+      </div>
+      <div className="absolute bottom-0 h-[800px] left-1/2 pointer-events-none top-[44px]" data-node-id="58062:3471">
+        <div className="-translate-x-1/2 bg-white border-[#d2d6db] border-b-[0.5px] border-solid content-stretch drop-shadow-[0px_1px_1px_rgba(16,24,40,0.05)] flex h-[80px] items-center justify-between p-[20px] pointer-events-auto sticky top-0 w-[390px]">
+          <div className="border border-[#d2d6db] border-solid content-stretch flex items-center justify-center p-[10px] relative rounded-[999px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] shrink-0" data-node-id="58062:3472" data-name="CTA">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I58062:3472;58000:2349" data-name="Bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretLeft} />
+            </div>
+          </div>
+          <div className="bg-white content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="58062:3473">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[20px] min-w-px relative text-[#1b1d23] text-[16px] text-center" data-node-id="58062:3474">
+              Trip details
+            </p>
+          </div>
+          <div className="border border-[#d2d6db] border-solid content-stretch flex items-center justify-center p-[10px] relative rounded-[999px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] shrink-0" data-node-id="58062:3475" data-name="CTA">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I58062:3475;58000:2349" data-name="Bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDotsThree} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col h-[183px] items-start justify-between left-0 overflow-clip p-[12px] top-[124px] w-[390px]" data-node-id="58062:3476">
+        <div aria-hidden className="absolute inset-0 pointer-events-none">
+          <img alt="" className="absolute max-w-none object-cover size-full" src={imgFrame43} />
+          <div className="absolute bg-[rgba(0,0,0,0.35)] inset-0" />
+        </div>
+        <div className="content-stretch flex h-[28px] items-start justify-end relative shrink-0 w-full" data-node-id="58062:3477" data-name="Invitation status" />
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full" data-node-id="58062:3480" data-name="Destination">
+          <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[28px] relative shrink-0 text-[20px] text-white whitespace-nowrap" data-node-id="58062:3481">
+            Coorg, with the gang.
+          </p>
+          <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="58062:3483" data-name="Travel type and duration">
+            <div className="content-stretch flex gap-[6px] items-center relative shrink-0" data-node-id="58062:3484" data-name="Road trip">
+              <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="58062:3486">
+                Sat, 3 Oct – Mon, 5 Oct
+              </p>
+            </div>
+            <div className="bg-[#d2d6db] relative self-stretch shrink-0 w-[0.5px]" data-node-id="58062:3487" data-name="Date divider" />
+            <div className="content-stretch flex gap-[6px] items-center relative shrink-0" data-node-id="58062:3488" data-name="Road trip">
+              <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="58062:3490">
+                Road trip
+              </p>
+            </div>
+            <div className="bg-[#d2d6db] relative self-stretch shrink-0 w-[0.5px]" data-node-id="58062:3491" data-name="Date divider" />
+            <div className="content-stretch flex gap-[6px] items-center relative shrink-0" data-node-id="58062:3492" data-name="2 nights">
+              <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[12px] text-white whitespace-nowrap" data-node-id="58062:3494">
+                2 nights
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute bg-white border-[#d2d6db] border-b-[0.5px] border-solid content-stretch flex flex-col items-start left-1/2 p-[20px] top-[307px] w-[390px]" data-node-id="58062:3495" data-name="Trip card / Trip ticket">
+        <div className="content-stretch flex gap-[12px] items-center relative shrink-0 w-full" data-node-id="58062:3496" data-name="Travel group">
+          <div className="content-stretch flex items-center relative shrink-0" data-node-id="58062:3497">
+            <div className="mr-[-12px] relative shrink-0 size-[36px]" data-node-id="58062:3498">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="36" src={imgEllipse2} width="36" />
+            </div>
+            <div className="mr-[-12px] relative shrink-0 size-[36px]" data-node-id="58062:3499">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="36" src={imgEllipse4} width="36" />
+            </div>
+            <div className="mr-[-12px] relative shrink-0 size-[36px]" data-node-id="58062:3500">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="36" src={imgEllipse3} width="36" />
+            </div>
+            <div className="relative shrink-0 size-[36px]" data-node-id="58062:3501">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" height="36" src={imgEllipse5} width="36" />
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px relative whitespace-nowrap" data-node-id="58062:3502" data-name="Invitation from Ananya">
+            <p className="font-['Geist:SemiBold'] font-semibold leading-[19.6px] relative shrink-0 text-[#1b1d23] text-[14px]" data-node-id="58062:3503">
+              Ananya invited you
+            </p>
+            <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px]" data-node-id="58062:3504">
+              4 friends are going
+            </p>
+          </div>
+          <div className="content-stretch drop-shadow-[0px_1px_1px_rgba(16,24,40,0.05)] flex h-[44px] items-center justify-center p-[10px] relative rounded-[999px] shrink-0 w-[36px]" data-node-id="58062:3505" data-name="CTA">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I58062:3505;58000:2349" data-name="Bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-white border-[#d2d6db] border-solid border-t-[0.5px] bottom-0 content-stretch flex gap-[24px] items-center left-0 p-[20px] right-0" data-node-id="58062:3506" data-name="Button group">
+        <div className="[word-break:break-word] content-stretch flex flex-col items-start relative shrink-0" data-node-id="I58062:3506;58040:2646">
+          <p className="font-['Geist:SemiBold'] font-semibold leading-[28px] relative shrink-0 text-[#1b1d23] text-[20px] w-full" data-node-id="I58062:3506;58040:2647">
+            ₹2,140
+          </p>
+          <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] w-full" data-node-id="I58062:3506;58040:2648">
+            *est.total
+          </p>
+        </div>
+        <div className="bg-[#7943ee] content-stretch flex flex-[1_0_0] gap-[8px] items-center justify-center min-w-px px-[16px] py-[12px] relative rounded-[6px]" data-node-id="I58062:3506;58040:2649" data-name="CTA">
+          <div className="[word-break:break-word] flex flex-col font-['Geist:SemiBold'] font-semibold justify-center leading-[0] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="I58062:3506;58040:2649;630:1606">
+            <p className="leading-[19.6px]">Review share</p>
+          </div>
+          <div className="relative shrink-0 size-[20px]" data-node-id="I58062:3506;58040:2649;57998:1716" data-name="Circle">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight1} />
+          </div>
+        </div>
+      </div>
+      <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[20px] items-start left-1/2 p-[20px] top-[392px] w-[390px]" data-node-id="58062:3507">
+        <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="58062:3508">
+          <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start min-w-px overflow-clip relative whitespace-nowrap" data-node-id="58062:3509" data-name="Pickup prompt">
+            <p className="font-['Geist:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[#1b1d23] text-[16px]" data-node-id="58062:3510">
+              Where will you join?
+            </p>
+            <p className="font-['Geist:Regular'] font-normal leading-[19.6px] relative shrink-0 text-[#9da4ae] text-[14px]" data-node-id="58062:3511">
+              Bengaluru to Madikeri
+            </p>
+          </div>
+          <button className="bg-white content-stretch cursor-pointer flex items-center justify-center overflow-clip relative rounded-[6px] shrink-0" data-node-id="58062:3512" data-name="CTA">
+            <div className="[word-break:break-word] flex flex-col font-['Geist:SemiBold'] font-semibold justify-center leading-[0] relative shrink-0 text-[#7943ee] text-[14px] text-left whitespace-nowrap" data-node-id="I58062:3512;58040:2299">
+              <p className="leading-[19.6px]">View route</p>
+            </div>
+          </button>
+        </div>
+        <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="58062:3513">
+          <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="58062:3514">
+            <LocationSplit className="bg-white border-[#7943ee] border-[1.5px] border-solid content-stretch flex h-[68px] items-start justify-between p-[12px] relative rounded-[6px] shrink-0 w-full" state="Selected" />
+            <div className="bg-white border border-[#d2d6db] border-solid content-stretch drop-shadow-[0px_1px_1px_rgba(16,24,40,0.05)] flex items-start justify-between p-[12px] relative rounded-[6px] shrink-0 w-full" data-node-id="58062:3516" data-name="Location split">
+              <div className="content-stretch flex gap-[12px] items-start relative shrink-0" data-node-id="I58062:3516;58040:2792">
+                <div className="relative shrink-0 size-[18px]" data-node-id="I58062:3516;58040:2723" data-name="Ellipse">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgEllipse} />
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-col gap-[2px] items-start overflow-clip relative shrink-0 w-[198px] whitespace-nowrap" data-node-id="I58062:3516;58040:2724" data-name="Pickup details">
+                  <p className="font-['Geist:SemiBold'] font-semibold leading-[19.6px] relative shrink-0 text-[#1b1d23] text-[14px]" data-node-id="I58062:3516;58040:2725">
+                    Kushalnagar · 12:30 PM
+                  </p>
+                  <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px]" data-node-id="I58062:3516;58040:2726">
+                    KSRTC bus stand
+                  </p>
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-end min-w-px overflow-clip relative whitespace-nowrap" data-node-id="I58062:3516;58040:2727" data-name="Estimated share">
+                <p className="font-['Geist:SemiBold'] font-semibold leading-[19.6px] relative shrink-0 text-[#1b1d23] text-[14px]" data-node-id="I58062:3516;58040:2728">
+                  ₹1,780
+                </p>
+                <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px]" data-node-id="I58062:3516;58040:2729">
+                  est. total
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative rounded-[100px] shrink-0 w-full" data-node-id="58062:3517" data-name="Date wrapper">
+            <div className="relative shrink-0 size-[16px]" data-node-id="58062:3518" data-name="Info">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfo} />
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[16px] min-w-px relative text-[#9da4ae] text-[12px]" data-node-id="58062:3519">
+              Reach the pickup on your own. Both stops are already on the group’s route.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Black: #1B1D23, Grey 2: #D2D6DB, Light sd: Effect(type: DROP_SHADOW, color: #1018280D, offset: (0, 1), radius: 2, spread: 0), H2: Font(family: "Geist", style: SemiBold, size: 16, weight: 600, lineHeight: 20, letterSpacing: 0), White: #FFFFFF, H1: Font(family: "Geist", style: SemiBold, size: 20, weight: 600, lineHeight: 28, letterSpacing: 0), Body ex.sm: Font(family: "Geist", style: Regular, size: 12, weight: 400, lineHeight: 16, letterSpacing: 0), Avatar/Maya: , Gray/Hover: #F9FAFB, Avatar/Rohan: , Avatar/Neha: , Avatar/Arjun: , H3: Font(family: "Geist", style: SemiBold, size: 14, weight: 600, lineHeight: 19.600000381469727, letterSpacing: 0), Grey 1: #9DA4AE, Primary color: #7943EE, Body sm: Font(family: "Geist", style: Regular, size: 14, weight: 400, lineHeight: 19.600000381469727, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## CaretLeft
+**Node ID:** 58036:6776
+
+chevron, directional, pointer, pointing, arrowhead, triangle, arrows
+
+## DotsThree
+**Node ID:** 58036:6817
+
+menu, overflow, circles, shapes, polygons, 3, ellipsis, ellipses, more, system & devices
+
+## CaretRight
+**Node ID:** 58015:3305
+
+chevron, directional, pointer, pointing, arrowhead, triangle, arrows
+
+## CaretRight
+**Node ID:** 58040:2657
+
+chevron, directional, pointer, pointing, arrowhead, triangle, arrows
+
+## State=Selected
+**Node ID:** 58040:2732
+
+Select pickup before reviewing estimated onward travel and fixed stay contribution. Selected state must match map highlight and footer total.
+
+## State=default
+**Node ID:** 58040:2730
+
+Select pickup before reviewing estimated onward travel and fixed stay contribution. Selected state must match map highlight and footer total.
+
+## Info
+**Node ID:** 58055:2489
+
+information, help, support, security & warnings
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

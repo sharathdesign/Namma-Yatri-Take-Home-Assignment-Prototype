@@ -1,0 +1,219 @@
+const imgBaseSystemStatusIcons = "https://www.figma.com/api/mcp/asset/9555b153-a65b-4683-9721-b7c0ff5758f2.svg";
+const imgCaretLeft = "https://www.figma.com/api/mcp/asset/8cd54292-db1a-48b7-84f9-6554c1adbfe8.svg";
+const imgDotsThree = "https://www.figma.com/api/mcp/asset/239ed79f-01f2-4a53-8fa0-cbc5efd505b9.svg";
+const imgCostIcon = "https://www.figma.com/api/mcp/asset/0cc3ad2c-2453-4593-94b0-6c8a6572d760.svg";
+const imgCostIcon1 = "https://www.figma.com/api/mcp/asset/76aef932-08db-40ef-a896-de096206ff99.svg";
+const imgInfo = "https://www.figma.com/api/mcp/asset/0187062d-688c-4e1b-8dd8-fa0e8237b6d1.svg";
+const imgCheck = "https://www.figma.com/api/mcp/asset/b559b155-d4c8-4f84-9d34-1929084c8c7a.svg";
+
+export default function ReviewShare() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="58081:4186" data-name="Review share">
+      <div className="absolute h-[44px] left-0 overflow-clip top-0 w-[390px]" data-node-id="58081:4187" data-name="Android UI/Status Bar">
+        <div className="-translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] left-[20px] not-italic text-[#1b1d23] text-[15px] top-1/2 tracking-[-0.5px] whitespace-nowrap" data-node-id="58081:4188">
+          <p className="leading-[20px]">12:30</p>
+        </div>
+        <div className="-translate-y-1/2 absolute h-[24px] right-[20px] top-1/2 w-[50.667px]" data-node-id="58081:4189" data-name=".Base / System / Status Icons">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBaseSystemStatusIcons} />
+        </div>
+      </div>
+      <div className="absolute bottom-0 h-[800px] left-1/2 pointer-events-none top-[44px]" data-node-id="58081:4194">
+        <div className="-translate-x-1/2 bg-white border-[#d2d6db] border-b-[0.5px] border-solid content-stretch drop-shadow-[0px_1px_1px_rgba(16,24,40,0.05)] flex h-[80px] items-center justify-between p-[20px] pointer-events-auto sticky top-0 w-[390px]">
+          <div className="border border-[#d2d6db] border-solid content-stretch flex items-center justify-center p-[10px] relative rounded-[999px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] shrink-0" data-node-id="58081:4195" data-name="CTA">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I58081:4195;58000:2349" data-name="Bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretLeft} />
+            </div>
+          </div>
+          <div className="bg-white content-stretch flex flex-[1_0_0] items-center justify-center min-w-px relative" data-node-id="58081:4196">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:SemiBold'] font-semibold leading-[20px] min-w-px relative text-[#1b1d23] text-[16px] text-center" data-node-id="58081:4197">
+              Review share
+            </p>
+          </div>
+          <div className="border border-[#d2d6db] border-solid content-stretch flex items-center justify-center p-[10px] relative rounded-[999px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] shrink-0" data-node-id="58081:4198" data-name="CTA">
+            <div className="relative shrink-0 size-[20px]" data-node-id="I58081:4198;58000:2349" data-name="Bell">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDotsThree} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col gap-[var(--route-space-20,20px)] items-start left-0 overflow-clip p-[var(--route-space-20,20px)] top-[124px] w-[390px]" data-node-id="58081:4353" data-name="Review content">
+        <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--route-space-4,4px)] items-start overflow-clip relative shrink-0 w-full whitespace-nowrap" data-node-id="58081:4354" data-name="Trip context">
+          <p className="font-['Geist:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[#1b1d23] text-[16px]" data-node-id="58081:4355">
+            Coorg, with the gang.
+          </p>
+          <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px]" data-node-id="58081:4356">
+            Sat, 3 Oct – Mon, 5 Oct · 2 nights
+          </p>
+        </div>
+        <a className="bg-[#f5f5f7] content-stretch cursor-pointer flex flex-col gap-[var(--route-space-8,8px)] items-start overflow-clip p-[var(--route-space-12,12px)] relative rounded-[var(--route-radius-6,6px)] shrink-0 w-full" data-node-id="58081:4357" data-name="Selected pickup">
+          <div className="content-stretch flex gap-[var(--route-space-8,8px)] items-center overflow-clip relative shrink-0 w-[326px]" data-node-id="58081:4358" data-name="Pickup label and edit">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[16px] min-w-px relative text-[#1b1d23] text-[12px] text-left" data-node-id="58081:4359">
+              Your pickup
+            </p>
+            <div className="content-stretch cursor-pointer flex items-center justify-center overflow-clip relative rounded-[6px] shrink-0" data-node-id="58081:4360" data-name="Change pickup">
+              <div className="[word-break:break-word] flex flex-col font-['Geist:SemiBold'] font-semibold justify-center leading-[0] relative shrink-0 text-[#7943ee] text-[14px] text-left whitespace-nowrap" data-node-id="I58081:4360;58040:2299">
+                <p className="leading-[19.6px]">Change</p>
+              </div>
+            </div>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--route-space-4,4px)] items-start overflow-clip relative shrink-0 text-[#1b1d23] text-left w-[326px] whitespace-nowrap" data-node-id="58081:4361" data-name="Pickup place and time">
+            <p className="font-['Geist:SemiBold'] font-semibold leading-[19.6px] relative shrink-0 text-[14px]" data-node-id="58081:4362">
+              Mysuru Junction
+            </p>
+            <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[12px]" data-node-id="58081:4363">
+              Sat, 3 Oct · 10:30 AM
+            </p>
+          </div>
+        </a>
+        <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-node-id="58081:4364">
+          <div className="bg-white content-stretch flex flex-col gap-[var(--route-space-16,16px)] items-start overflow-clip py-[12px] relative rounded-[var(--route-radius-6,6px)] shrink-0 w-full" data-node-id="58081:4365" data-name="Your estimated share">
+            <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="58081:4366">
+              <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px overflow-clip relative" data-node-id="58081:4367" data-name="Pickup prompt">
+                <p className="[word-break:break-word] font-['Geist:SemiBold'] font-semibold leading-[20px] relative shrink-0 text-[#1b1d23] text-[16px] whitespace-nowrap" data-node-id="58081:4368">
+                  Your estimated share
+                </p>
+              </div>
+              <button className="bg-white content-stretch cursor-pointer flex items-center justify-center overflow-clip relative rounded-[6px] shrink-0" data-node-id="58081:4369" data-name="CTA">
+                <div className="[word-break:break-word] flex flex-col font-['Geist:SemiBold'] font-semibold justify-center leading-[0] relative shrink-0 text-[#7943ee] text-[14px] text-left whitespace-nowrap" data-node-id="I58081:4369;58040:2299">
+                  <p className="leading-[19.6px]">How it’s split?</p>
+                </div>
+              </button>
+            </div>
+            <div className="content-stretch flex gap-[var(--route-space-12,12px)] items-start relative shrink-0 w-full" data-node-id="58081:4370" data-name="Onward travel / ₹640">
+              <div className="relative shrink-0 size-[20px]" data-node-id="I58081:4370;58082:1695" data-name="Cost icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCostIcon} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--route-space-4,4px)] items-start min-w-px overflow-clip relative" data-node-id="I58081:4370;58082:1703" data-name="Cost details">
+                <div className="content-stretch flex items-start justify-between leading-[19.6px] overflow-clip relative shrink-0 text-[#1b1d23] text-[14px] w-full" data-node-id="I58081:4370;58082:1704" data-name="Label and amount">
+                  <p className="flex-[1_0_0] font-['Geist:Regular'] font-normal min-w-px relative" data-node-id="I58081:4370;58082:1705">
+                    Onward travel
+                  </p>
+                  <p className="font-['Geist:SemiBold'] font-semibold relative shrink-0 whitespace-nowrap" data-node-id="I58081:4370;58082:1706">
+                    ₹640
+                  </p>
+                </div>
+                <div className="font-['Geist:Regular'] font-normal leading-[0] relative shrink-0 text-[#9da4ae] text-[12px] w-full" data-node-id="I58081:4370;58082:1707">
+                  <p className="leading-[16px] mb-0">Mysuru to Madikeri</p>
+                  <p className="leading-[16px]">Fuel ₹480 · Tolls ₹160</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--route-space-12,12px)] items-start relative shrink-0 w-full" data-node-id="58081:4371" data-name="Fixed stay / ₹1,500">
+              <div className="relative shrink-0 size-[20px]" data-node-id="I58081:4371;58082:1695" data-name="Cost icon">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCostIcon1} />
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--route-space-4,4px)] items-start min-w-px overflow-clip relative" data-node-id="I58081:4371;58082:1703" data-name="Cost details">
+                <div className="content-stretch flex items-start justify-between leading-[19.6px] overflow-clip relative shrink-0 text-[#1b1d23] text-[14px] w-full" data-node-id="I58081:4371;58082:1704" data-name="Label and amount">
+                  <p className="flex-[1_0_0] font-['Geist:Regular'] font-normal min-w-px relative" data-node-id="I58081:4371;58082:1705">
+                    2 nights’ stay
+                  </p>
+                  <p className="font-['Geist:SemiBold'] font-semibold relative shrink-0 whitespace-nowrap" data-node-id="I58081:4371;58082:1706">
+                    ₹1,500
+                  </p>
+                </div>
+                <p className="font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] w-full" data-node-id="I58081:4371;58082:1707">
+                  Fixed contribution
+                </p>
+              </div>
+            </div>
+            <div className="bg-[#d2d6db] h-px relative shrink-0 w-full" data-node-id="58081:4372" data-name="Total divider" />
+            <div className="[word-break:break-word] content-stretch flex font-['Geist:SemiBold'] font-semibold gap-[var(--route-space-8,8px)] items-center overflow-clip relative shrink-0 text-[#1b1d23] w-full" data-node-id="58081:4373" data-name="Estimated total">
+              <p className="flex-[1_0_0] leading-[19.6px] min-w-px relative text-[14px]" data-node-id="58081:4374">
+                Estimated total
+              </p>
+              <p className="leading-[28px] relative shrink-0 text-[20px] whitespace-nowrap" data-node-id="58081:4375">
+                ₹2,140
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[8px] items-start relative rounded-[100px] shrink-0 w-full" data-node-id="58081:4376" data-name="Date wrapper">
+            <div className="relative shrink-0 size-[16px]" data-node-id="58081:4377" data-name="Info">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfo} />
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Geist:Regular'] font-normal leading-[16px] min-w-px relative text-[#9da4ae] text-[12px]" data-node-id="58081:4378">
+              Bengaluru → Mysuru: ₹0 for you. From Mysuru, you share travel with the other 4 after Ananya approves.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="absolute bg-white border-[#d2d6db] border-solid border-t bottom-0 content-stretch flex flex-col gap-[var(--route-space-12,12px)] items-start left-0 pb-[var(--route-space-20,20px)] pt-[var(--route-space-16,16px)] px-[var(--route-space-20,20px)] right-0" data-node-id="58081:4313" data-name="Review share / Agreement">
+        <div className="content-stretch flex flex-col gap-[var(--route-space-0,0px)] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="I58081:4313;58082:1727" data-name="Agreement copy">
+          <button className="content-stretch cursor-pointer flex gap-[var(--route-space-12,12px)] items-start overflow-clip relative shrink-0 w-[350px]" data-node-id="I58081:4313;58082:1728" data-name="Agree to estimated share">
+            <div className="bg-[#7943ee] border-[#7943ee] border-[1.5px] border-solid content-stretch flex gap-[var(--route-space-0,0px)] items-center justify-center overflow-clip relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I58081:4313;58082:1729" data-name="Checkbox">
+              <div className="relative shrink-0 size-[14px]" data-node-id="I58081:4313;58082:1730" data-name="Check">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCheck} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#1b1d23] text-[12px] text-left w-[318px]" data-node-id="I58081:4313;58082:1732">
+              I agree to my estimated share and the fixed stay contribution.
+            </p>
+          </button>
+        </div>
+        <div className="bg-[#7943ee] content-stretch flex gap-[8px] items-center justify-center px-[16px] py-[12px] relative rounded-[6px] shrink-0 w-[350px]" data-node-id="I58081:4313;58082:1735" data-name="Request to join / Enabled">
+          <div className="[word-break:break-word] flex flex-col font-['Geist:SemiBold'] font-semibold justify-center leading-[0] relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="I58081:4313;58082:1735;630:1606">
+            <p className="leading-[19.6px]">Request to join</p>
+          </div>
+        </div>
+        <p className="[word-break:break-word] font-['Geist:Regular'] font-normal leading-[16px] relative shrink-0 text-[#9da4ae] text-[12px] text-center w-[350px]" data-node-id="I58081:4313;58082:1736">
+          No payment now. Ananya confirms your seat.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Black: #1B1D23, Grey 2: #D2D6DB, Light sd: Effect(type: DROP_SHADOW, color: #1018280D, offset: (0, 1), radius: 2, spread: 0), H2: Font(family: "Geist", style: SemiBold, size: 16, weight: 600, lineHeight: 20, letterSpacing: 0), White: #FFFFFF, Grey 1: #9DA4AE, Body ex.sm: Font(family: "Geist", style: Regular, size: 12, weight: 400, lineHeight: 16, letterSpacing: 0), Primary color: #7943EE, H3: Font(family: "Geist", style: SemiBold, size: 14, weight: 600, lineHeight: 19.600000381469727, letterSpacing: 0), Body sm: Font(family: "Geist", style: Regular, size: 14, weight: 400, lineHeight: 19.600000381469727, letterSpacing: 0), H1: Font(family: "Geist", style: SemiBold, size: 20, weight: 600, lineHeight: 28, letterSpacing: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## CaretLeft
+**Node ID:** 58036:6776
+
+chevron, directional, pointer, pointing, arrowhead, triangle, arrows
+
+## DotsThree
+**Node ID:** 58036:6817
+
+menu, overflow, circles, shapes, polygons, 3, ellipsis, ellipses, more, system & devices
+
+## Share / Cost item
+**Node ID:** 58082:1694
+
+Reusable cost row with icon, label, amount and detail text. Onward travel is divided among 5 travellers; accommodation remains a fixed contribution.
+
+## Car
+**Node ID:** 58006:2862
+
+\*updated\*, cars, vehicles, automobile, transit, transportation, traveling, maps & travel
+
+## CloudMoon
+**Node ID:** 58006:2972
+
+meteorology, cloudy, partly cloudy, night, evening, weather & nature
+
+## Info
+**Node ID:** 58055:2489
+
+information, help, support, security & warnings
+
+## Agreement=Checked
+**Node ID:** 58082:1726
+
+Request footer. Request to join remains disabled until the estimate and fixed stay contribution are explicitly accepted.
+
+## Review share / Agreement
+**Node ID:** 58083:1737
+
+Explicit consent gates Request to join. Unchecked disables the CTA; Checked enables it. Both retain the fixed stay contribution and renewed-agreement notice.
+
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.
